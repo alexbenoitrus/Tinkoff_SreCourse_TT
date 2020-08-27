@@ -1,18 +1,15 @@
-﻿using System;
-
-namespace Training_A
+﻿namespace Training_A
 {
+    using System;
+
     public class TrainingA
     {
         public static void Main(string[] args)
         {
-            var aStr = Console.ReadLine();
-            var bStr = Console.ReadLine();
+            var a = int.Parse(Console.ReadLine() ?? "0");
+            var b = int.Parse(Console.ReadLine() ?? "0");
 
-            var a = int.Parse(aStr);
-            var b = int.Parse(bStr);
-
-            Console.WriteLine(a+b);
+            Console.WriteLine(a + b);
         }
     }
 }
